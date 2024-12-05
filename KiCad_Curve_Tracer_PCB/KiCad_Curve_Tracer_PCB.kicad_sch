@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "93ae5000-9762-482d-a6b0-192f54dc93f7")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 15.24 14.605)
+		(size 70.485 38.735)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd395262-8054-44a0-b735-af4241070400")
+		(property "Sheetname" "opamp curve tracer"
+			(at 15.24 13.8934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "opamp curve tracer.kicad_sch"
+			(at 15.24 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KiCad_Curve_Tracer_PCB"
+				(path "/93ae5000-9762-482d-a6b0-192f54dc93f7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
