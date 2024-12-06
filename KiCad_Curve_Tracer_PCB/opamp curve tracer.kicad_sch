@@ -1179,6 +1179,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 31.75) (xy 191.77 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a521e82-f4eb-484f-9aab-6833c2760341")
+	)
+	(wire
+		(pts
 			(xy 168.91 34.29) (xy 173.99 34.29)
 		)
 		(stroke
@@ -1216,6 +1226,26 @@
 			(type default)
 		)
 		(uuid "6564469d-b184-4b6e-9d4f-22414c8e6f66")
+	)
+	(wire
+		(pts
+			(xy 189.23 34.29) (xy 194.31 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6645a519-023a-4e46-8c9d-cf1612f42dba")
+	)
+	(wire
+		(pts
+			(xy 191.77 26.67) (xy 191.77 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68bfcc1f-4cea-495a-a29c-21b0033b71bc")
 	)
 	(wire
 		(pts
@@ -1476,6 +1506,16 @@
 			(type default)
 		)
 		(uuid "da2eee3a-aeda-47db-ad92-df5bca55b5a6")
+	)
+	(wire
+		(pts
+			(xy 194.31 26.67) (xy 194.31 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead603bf-bf49-4361-80d9-d3d4a0205a16")
 	)
 	(wire
 		(pts
@@ -1753,6 +1793,17 @@
 		)
 		(uuid "6b565a04-e9f1-44e6-8cbb-c1d16f5d8998")
 	)
+	(label "Vo"
+		(at 189.23 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f8b3e9c-1305-4fd7-b38a-8ef7bf919aba")
+	)
 	(label "r_in"
 		(at 148.59 68.58 0)
 		(fields_autoplaced yes)
@@ -1982,10 +2033,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "16bc1ad6-1212-4d59-93ce-ab9aacf7a82f")
 		(property "Reference" "J2"
-			(at 148.59 20.9549 90)
+			(at 144.526 17.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +2044,7 @@
 			)
 		)
 		(property "Value" "DUT"
-			(at 148.59 23.4949 90)
+			(at 144.272 19.812 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,10 +2307,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "51a15980-c5a5-42a5-8911-552b848b1bd5")
 		(property "Reference" "J1"
-			(at 121.92 20.9549 90)
+			(at 118.618 16.256 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +2318,7 @@
 			)
 		)
 		(property "Value" "Vi"
-			(at 121.92 23.4949 90)
+			(at 118.618 19.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,6 +2363,141 @@
 			(project "KiCad_Curve_Tracer_PCB"
 				(path "/93ae5000-9762-482d-a6b0-192f54dc93f7/dd395262-8054-44a0-b735-af4241070400"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f48a035-f022-44b6-a7d4-96973fb89d18")
+		(property "Reference" "#PWR05"
+			(at 181.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ec26794-a07a-4b07-a67b-70c31a8e16a2")
+		)
+		(instances
+			(project "KiCad_Curve_Tracer_PCB"
+				(path "/93ae5000-9762-482d-a6b0-192f54dc93f7/dd395262-8054-44a0-b735-af4241070400"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 194.31 21.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6caf6e00-a095-4773-9b93-1d303a497666")
+		(property "Reference" "J5"
+			(at 191.008 17.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Vo"
+			(at 191.008 19.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 194.31 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 194.31 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "682f758b-5502-4537-af86-c59a74413bbe")
+		)
+		(pin "2"
+			(uuid "317924e7-a926-49a8-b699-9d03908e9f9b")
+		)
+		(instances
+			(project "KiCad_Curve_Tracer_PCB"
+				(path "/93ae5000-9762-482d-a6b0-192f54dc93f7/dd395262-8054-44a0-b735-af4241070400"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2412,7 +2596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 121.92 120.65 0)
 			(effects
 				(font
@@ -2544,28 +2728,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "58924c1f-6d33-4fef-ad8f-38f7282aeea4")
+			(uuid "58924c1f-6d33-4fef-ad8f-38f7282aeea5")
 		)
 		(pin "2"
-			(uuid "f6a11307-b731-4816-88cd-284961d4d53f")
+			(uuid "f6a11307-b731-4816-88cd-284961d4d540")
 		)
 		(pin "6"
-			(uuid "4bf8e915-c60f-4770-95f1-b392ba2f7d6d")
+			(uuid "4bf8e915-c60f-4770-95f1-b392ba2f7d6e")
 		)
 		(pin "3"
-			(uuid "d218ecce-7eed-47d1-877d-ebb31fbdde43")
+			(uuid "d218ecce-7eed-47d1-877d-ebb31fbdde44")
 		)
 		(pin "4"
-			(uuid "ccea1783-1e83-410f-9c76-c666e8025a3c")
+			(uuid "ccea1783-1e83-410f-9c76-c666e8025a3d")
 		)
 		(pin "8"
-			(uuid "bd87e256-7a08-4b51-a33a-8dd0ddb61722")
+			(uuid "bd87e256-7a08-4b51-a33a-8dd0ddb61723")
 		)
 		(pin "5"
-			(uuid "9568e292-b34a-4a93-9eca-4e3013ebc747")
+			(uuid "9568e292-b34a-4a93-9eca-4e3013ebc748")
 		)
 		(pin "1"
-			(uuid "55c436ab-414f-4e79-ab2a-abb50a696861")
+			(uuid "55c436ab-414f-4e79-ab2a-abb50a696862")
 		)
 		(instances
 			(project ""
@@ -2604,7 +2788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 144.78 120.65 0)
 			(effects
 				(font
@@ -2785,10 +2969,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "de1b1e1b-001d-4dd5-a8ca-a39c5c7ac09d")
 		(property "Reference" "J3"
-			(at 175.26 20.9549 90)
+			(at 170.688 17.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,7 +2980,7 @@
 			)
 		)
 		(property "Value" "rng"
-			(at 175.26 23.4949 90)
+			(at 170.688 19.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,28 +3188,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "58924c1f-6d33-4fef-ad8f-38f7282aeea4")
+			(uuid "58924c1f-6d33-4fef-ad8f-38f7282aeea6")
 		)
 		(pin "2"
-			(uuid "f6a11307-b731-4816-88cd-284961d4d53f")
+			(uuid "f6a11307-b731-4816-88cd-284961d4d541")
 		)
 		(pin "6"
-			(uuid "4bf8e915-c60f-4770-95f1-b392ba2f7d6d")
+			(uuid "4bf8e915-c60f-4770-95f1-b392ba2f7d6f")
 		)
 		(pin "3"
-			(uuid "d218ecce-7eed-47d1-877d-ebb31fbdde43")
+			(uuid "d218ecce-7eed-47d1-877d-ebb31fbdde45")
 		)
 		(pin "4"
-			(uuid "ccea1783-1e83-410f-9c76-c666e8025a3c")
+			(uuid "ccea1783-1e83-410f-9c76-c666e8025a3e")
 		)
 		(pin "8"
-			(uuid "bd87e256-7a08-4b51-a33a-8dd0ddb61722")
+			(uuid "bd87e256-7a08-4b51-a33a-8dd0ddb61724")
 		)
 		(pin "5"
-			(uuid "9568e292-b34a-4a93-9eca-4e3013ebc747")
+			(uuid "9568e292-b34a-4a93-9eca-4e3013ebc749")
 		)
 		(pin "1"
-			(uuid "55c436ab-414f-4e79-ab2a-abb50a696861")
+			(uuid "55c436ab-414f-4e79-ab2a-abb50a696863")
 		)
 		(instances
 			(project ""
