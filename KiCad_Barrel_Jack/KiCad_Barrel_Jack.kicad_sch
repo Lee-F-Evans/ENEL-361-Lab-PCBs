@@ -5,6 +5,166 @@
 	(uuid "1167bcac-dc1f-4d02-8072-311f00971722")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PJ-202A:PJ-202A"
 			(pin_names
 				(offset 1.016)
@@ -49,16 +209,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "CUI Devices"
+			(property "Description" "2.0 x 6.5 mm, 2.5 A, Horizontal, Through Hole, Kinked Pins, Dc Power Jack Connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +219,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "2.0 x 6.5 mm, 2.5 A, Horizontal, Through Hole, Kinked Pins, Dc Power Jack Connector"
+			(property "MF" "CUI Devices"
 				(at 0 0 0)
 				(effects
 					(font
@@ -364,9 +515,351 @@
 			)
 		)
 	)
+	(junction
+		(at 152.4 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25cb5299-f35b-4805-8b4b-436c32040296")
+	)
+	(junction
+		(at 146.05 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a81a46-2fb1-42f6-a9ba-831973164b0d")
+	)
+	(junction
+		(at 115.57 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3c51e0a-782a-4514-a31e-d818ab8bac69")
+	)
+	(wire
+		(pts
+			(xy 146.05 40.64) (xy 152.4 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292e1d62-f2f4-48a2-bd32-6455c7b6cf7b")
+	)
+	(wire
+		(pts
+			(xy 143.51 62.23) (xy 146.05 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38fbc5d4-3e1c-4eae-bba8-52c529607c6c")
+	)
+	(wire
+		(pts
+			(xy 115.57 36.83) (xy 115.57 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b53769-569e-489d-9661-0d9472fbd223")
+	)
+	(wire
+		(pts
+			(xy 152.4 36.83) (xy 152.4 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425ccb5a-538a-4e07-90d4-d0e03a0aa597")
+	)
+	(wire
+		(pts
+			(xy 149.86 54.61) (xy 149.86 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3b536b-d5c8-47aa-849a-62f8e3caee37")
+	)
+	(wire
+		(pts
+			(xy 146.05 62.23) (xy 149.86 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a114ee-9143-45df-8495-19982b9b3bee")
+	)
+	(wire
+		(pts
+			(xy 115.57 40.64) (xy 118.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696a9ba0-4ac4-46e2-b310-ea426084e2f2")
+	)
+	(wire
+		(pts
+			(xy 143.51 57.15) (xy 149.86 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0c27a4-b9ff-4f8a-a3a1-51392afdbf79")
+	)
+	(wire
+		(pts
+			(xy 146.05 59.69) (xy 146.05 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7809fcd2-6c36-46bb-bb6c-626cdccceccc")
+	)
+	(wire
+		(pts
+			(xy 118.11 36.83) (xy 118.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d7a41e-355e-4efb-bb63-f2639a0437b1")
+	)
+	(wire
+		(pts
+			(xy 154.94 36.83) (xy 154.94 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa607cf7-f8bf-424d-9b4d-f63d97fe4d89")
+	)
+	(wire
+		(pts
+			(xy 143.51 59.69) (xy 146.05 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a986d0-da27-4242-8624-6afad1d1a934")
+	)
+	(wire
+		(pts
+			(xy 152.4 40.64) (xy 154.94 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20c5fc6-3eb8-4bf1-bb4b-48099b7c1b87")
+	)
+	(wire
+		(pts
+			(xy 109.22 40.64) (xy 115.57 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec56c4b-4f0c-4cdb-b266-0bb66a8acbc8")
+	)
+	(label "V-"
+		(at 146.05 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33abca0c-ee7b-417a-bcb1-d3bb77f1b774")
+	)
+	(label "V-"
+		(at 149.86 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53902946-7893-437e-bb00-3f2cc8d8f237")
+	)
+	(label "V+"
+		(at 149.86 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60abde51-d87d-430c-9331-46cdd8273d5b")
+	)
+	(label "V+"
+		(at 109.22 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "895c653b-6472-4291-8b7b-f28240e676c4")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 154.94 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "046dc779-261f-4f0f-a3b1-991a5daa5ac1")
+		(property "Reference" "J2"
+			(at 156.21 31.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 156.21 33.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd3baac1-0b19-47f5-9822-0757a69ee740")
+		)
+		(pin "2"
+			(uuid "f66b857a-3589-4917-9abf-52fde9fc472b")
+		)
+		(instances
+			(project "KiCad_Barrel_Jack"
+				(path "/1167bcac-dc1f-4d02-8072-311f00971722"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 118.11 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5488b1e-2d5c-42ef-96f3-042765997694")
+		(property "Reference" "J1"
+			(at 119.38 31.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 119.38 33.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 118.11 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 118.11 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23940bd2-bd19-41f7-a955-02009882d17e")
+		)
+		(pin "2"
+			(uuid "2aef907d-aa9f-4dc6-9136-1ec18c830fbf")
+		)
+		(instances
+			(project "KiCad_Barrel_Jack"
+				(path "/1167bcac-dc1f-4d02-8072-311f00971722"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "PJ-202A:PJ-202A")
-		(at 124.46 69.85 0)
+		(at 138.43 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -374,8 +867,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efe08d84-d25a-437e-b1c7-27ff6b9170fc")
-		(property "Reference" "J1"
-			(at 121.2243 60.96 0)
+		(property "Reference" "U1"
+			(at 135.1943 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -383,15 +876,15 @@
 			)
 		)
 		(property "Value" "PJ-202A"
-			(at 121.2243 63.5 0)
+			(at 135.1943 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PJ-202A:CUI_PJ-202A"
-			(at 124.46 69.85 0)
+		(property "Footprint" "PJ_202A:CUI_PJ-202A"
+			(at 138.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,7 +894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 69.85 0)
+			(at 138.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -410,7 +903,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 69.85 0)
+			(at 138.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -419,7 +912,7 @@
 			)
 		)
 		(property "MF" "CUI Devices"
-			(at 124.46 69.85 0)
+			(at 138.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -429,7 +922,7 @@
 			)
 		)
 		(property "DESCRIPTION" "2.0 x 6.5 mm, 2.5 A, Horizontal, Through Hole, Kinked Pins, Dc Power Jack Connector"
-			(at 124.46 69.85 0)
+			(at 138.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -439,7 +932,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 124.46 69.85 0)
+			(at 138.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +942,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 124.46 69.85 0)
+			(at 138.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -459,7 +952,7 @@
 			)
 		)
 		(property "CUI_PURCHASE_URL" "https://www.cuidevices.com/product/interconnect/connectors/dc-power-connectors/jacks/pj-202a?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
-			(at 124.46 69.85 0)
+			(at 138.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,7 +962,7 @@
 			)
 		)
 		(property "MP" "PJ-202A"
-			(at 124.46 69.85 0)
+			(at 138.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -479,7 +972,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 124.46 69.85 0)
+			(at 138.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -489,7 +982,7 @@
 			)
 		)
 		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/PJ-202A/?ref=eda"
-			(at 124.46 69.85 0)
+			(at 138.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -510,7 +1003,7 @@
 		(instances
 			(project ""
 				(path "/1167bcac-dc1f-4d02-8072-311f00971722"
-					(reference "J1")
+					(reference "U1")
 					(unit 1)
 				)
 			)
