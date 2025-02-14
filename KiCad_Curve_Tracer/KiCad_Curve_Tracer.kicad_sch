@@ -36,7 +36,7 @@
 			)
 		)
 		(instances
-			(project "KiCad_Curve_Tracer_PCB"
+			(project "KiCad_Curve_Tracer"
 				(path "/93ae5000-9762-482d-a6b0-192f54dc93f7"
 					(page "2")
 				)
